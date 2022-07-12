@@ -1,5 +1,5 @@
 body{
-    background: rgb(206, 206, 206);
+    background: rgb(98, 98, 98);
     color: #3F4E4F;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -26,23 +26,22 @@ body{
   }
   a:hover {
     text-decoration: none;
-    color: blueviolet;
   }
 
   #banner{
     text-align: center;
     background-image: url("images/pexels-dominika-roseclay-1036808.jpg");
     background-size: cover;
-    padding: 150px;
+    padding: 2.5% 150px 150px;
     color: white;
     text-shadow: 1px 1px 5px black;
   }
   #banner h1 {
-    color: white;
+    color: rgb(53, 53, 53);
     font-size: 50px;
   }
   #banner p {
-    color: white;
+    color:  rgb(53, 53, 53);
     opacity: 0.8;
     font-size: 30px;
     font-weight: lighter;
@@ -55,8 +54,7 @@ body{
   .card{
     padding: 50px;
     font-weight: lighter;
-    border-style: none;
-    background: rgb(206, 206, 206);
+    border: none !important;
   }
   #footer a {
     color: lightgrey;
@@ -65,4 +63,3 @@ body{
   #footer a:hover {
     color: white;
   }
-  
